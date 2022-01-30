@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheels With Deals</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="splidejs/splide.min.css">
+</head>
+<body>
+    <header>
+        <div class="Header-Container">
+            <div class="Header-Icon">
+                <li><a href="index.html"><img src="resources/Icon_White.png" alt="logo"><h1>Wheels With Deals</h1></a></li>
+            </div>
+            <nav class="Nav-List">
+                <ul>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="reserved.html">Reserved</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </ul>
+            </nav>
+            <div class="Contact-Button">
+                <ul>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="Main-Container">
+            <h3>Our Favourites</h3>
+            <p>Some of our favourite pictures sent in by our customers</p>
+
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide"><a href=""><img src="resources/cars/Car1.jpg" alt=""></a></li>
+                        <li class="splide__slide"><a href=""><img src="resources/cars/Car2.jpg" alt=""></a></li>
+                        <li class="splide__slide"><a href=""><img src="resources/cars/Car3.jpg" alt=""></a></li>
+                        <li class="splide__slide"><a href=""><img src="resources/cars/Car4.jpg" alt=""></a></li>
+                        <li class="splide__slide"><a href=""><img src="resources/cars/Car5.jpg" alt=""></a></li>
+                        <li class="splide__slide"><a href=""><img src="resources/cars/Car6.jpg" alt=""></a></li>
+                    </ul>
+                </div>
+                
+                <div class="splide__progress">
+                    <div class="splide__progress__bar">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+
+
+    </main>
+    <footer>
+        <div class="Footer-Container">
+            <span></span>
+            <div class="Footer-Copyright">
+                <p>© 2022 - Wheels With Deals</p>
+            </div>
+            <div>
+
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <script src="splidejs/splide.min.js"></script>
+    <script>
+        var splide = new Splide( '.splide', {
+        type   : 'loop',
+        autoplay: true,
+        padding: '15rem',
+        cover      : true,
+		heightRatio: 0.6,
+        gap: '2em',
+        } );
+
+        splide.mount();
+      </script>
+</body>
+</html>
