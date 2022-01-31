@@ -32,9 +32,10 @@ html{
 
 :root{
     --headerSecondary: rgba(248, 248, 248, 100);
-    --bgColor: rgba(41, 41, 41, 100);
+    --bgColor: rgb(41, 41, 41);
     --bgColorSecondary: rgb(34, 34, 34);
     --mainSecondary: rgb(202, 48, 48);
+    /*rgb(202, 48, 48)*/
 }
 
 .Header-Container{
